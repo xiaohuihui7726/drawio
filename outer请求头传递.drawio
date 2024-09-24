@@ -86,9 +86,9 @@
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-37" value="将用户信息放入ThreadLocal中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="1665" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qF1O0gJKwTEx5X9vgZdj-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-39" target="qF1O0gJKwTEx5X9vgZdj-46">
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-39" target="qF1O0gJKwTEx5X9vgZdj-46">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="1780" as="targetPoint" />
+            <mxPoint x="270" y="1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-39" value="组装请求头&lt;div&gt;&lt;b&gt;srm-base-user-id&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;取值为ThreadLocal中的uerId&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
