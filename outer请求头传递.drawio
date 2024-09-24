@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-6" value="供应商用户ID传入&lt;div&gt;请求头&lt;b&gt;srm-user-id&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="870" width="120" height="110" as="geometry" />
+          <mxGeometry x="390" y="870" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;outer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="840" width="60" height="30" as="geometry" />
@@ -16,14 +16,14 @@
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-8" target="qF1O0gJKwTEx5X9vgZdj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qF1O0gJKwTEx5X9vgZdj-8" value="获取请求头中&lt;div&gt;&lt;b&gt;srm-user-id&lt;/b&gt;&lt;/div&gt;&lt;div&gt;查询到用户信息放到&lt;/div&gt;&lt;div&gt;&lt;b&gt;ThreadLocalCache.USER_INFO中&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="870" width="120" height="110" as="geometry" />
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-8" value="获取请求头中&lt;div&gt;&lt;b&gt;srm-user-id&lt;/b&gt;&lt;/div&gt;&lt;div&gt;查询到用户信息放到&lt;/div&gt;&lt;div&gt;&lt;b&gt;ThreadLocalCache.USER_INFO中&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;传到base的请求头&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;srm-base-user-id&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;取的ThreadLocal中的userId&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="870" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;gr2p&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="705" y="840" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-11" value="调用倚天请求头&lt;div&gt;&lt;b&gt;username&lt;/b&gt;&lt;/div&gt;&lt;div&gt;从ThreadLocal中取到用户信息的ldap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="870" width="120" height="110" as="geometry" />
+          <mxGeometry x="950" y="870" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;base&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980" y="840" width="60" height="30" as="geometry" />
