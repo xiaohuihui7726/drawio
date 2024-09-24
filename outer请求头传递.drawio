@@ -124,6 +124,15 @@
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-56" value="调用倚天" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1915" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-59" value="outer处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-60" value="gr2p处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-61" value="base处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1420" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
