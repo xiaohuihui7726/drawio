@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-06-11T06:23:05.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wV6Tv35rVY8IJY3hYevb" version="24.4.9" type="device">
+  <diagram name="第 1 页" id="qNoyvy3O7D5K-5tT6kfe">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000000" pageHeight="1000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8ObIHGs4UZ0R6LunZlwL-4" target="8ObIHGs4UZ0R6LunZlwL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEeXCF8ref5dkVsUQiOe-4" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8ObIHGs4UZ0R6LunZlwL-4" target="vEeXCF8ref5dkVsUQiOe-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSYR1kqq5nR-bEggrHoL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ObIHGs4UZ0R6LunZlwL-4" target="kSYR1kqq5nR-bEggrHoL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-4" value="使用统一入口（Controller）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8ObIHGs4UZ0R6LunZlwL-5" target="8ObIHGs4UZ0R6LunZlwL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-5" value="使用设计模式分别处理不同的报表&lt;div&gt;（扩展性）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2880" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-7" value="区分不同的表&lt;div&gt;（一个报表对应一张表）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3080" y="550" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ObIHGs4UZ0R6LunZlwL-15" value="使用一张表处理不同的报表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3090" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vEeXCF8ref5dkVsUQiOe-1" value="优点：&lt;div&gt;1.每个报表导入时清表互不影响&lt;/div&gt;&lt;div&gt;2.区分多个表可以防止单个表的数据量过大导致查询慢&lt;/div&gt;&lt;div&gt;缺点：&lt;/div&gt;&lt;div&gt;1.如果有别的报表接入需要修改代码&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="530" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vEeXCF8ref5dkVsUQiOe-2" value="优点：&lt;div&gt;1.别的报表接入可以通过现有代码支持&lt;/div&gt;&lt;div&gt;缺点：&lt;/div&gt;&lt;div&gt;1.单个报表导入时，全量删除再新增可能会影响别的报表数据&lt;/div&gt;&lt;div&gt;2.所有报表存入一张表中可能会导致查询慢&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3220" y="780" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vEeXCF8ref5dkVsUQiOe-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vEeXCF8ref5dkVsUQiOe-3" target="8ObIHGs4UZ0R6LunZlwL-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEeXCF8ref5dkVsUQiOe-3" value="所有报表使用统一实现，根据系统参数配置区分不同类型报表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2880" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSYR1kqq5nR-bEggrHoL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kSYR1kqq5nR-bEggrHoL-2" target="kSYR1kqq5nR-bEggrHoL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSYR1kqq5nR-bEggrHoL-2" value="根据传入表名动态处理（校验表名前缀，不符合规则的不处理）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSYR1kqq5nR-bEggrHoL-4" value="动态sql处理对应表（根据表名先删后插&lt;div&gt;）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSYR1kqq5nR-bEggrHoL-6" value="优点：&lt;div&gt;1.有前缀校验，可以防止删除操作删除到别的业务单据表&lt;/div&gt;&lt;div&gt;2.统一入口，统一处理&lt;/div&gt;&lt;div&gt;缺点：&lt;/div&gt;&lt;div&gt;1.插入不同表处理复杂，动态&lt;span style=&quot;background-color: initial;&quot;&gt;truncate和insert语句有可能不稳定&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3220" y="1040" width="130" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

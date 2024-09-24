@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" modified="2024-07-16T10:38:16.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="KNpeIYkkSl1_iuNToc9o" version="24.6.5" type="device">
+  <diagram name="第 1 页" id="DeTQz9TMoZGQKt6c6M1F">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="755" width="670" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="318" width="670" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-40" target="hagkfmnz9H3aQq5Ztb4D-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-40" value="redis生成流水号/ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="628" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-42" target="hagkfmnz9H3aQq5Ztb4D-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-42" value="同步更新数据库对应流水号值/ID值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="628" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-45" target="hagkfmnz9H3aQq5Ztb4D-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-45" value="切换为数据库生成流水号/ID方式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="628" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-46" value="Redis服务不可用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="636" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-47" value="每台服务会生成100个流水号放入内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="478" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-48" target="hagkfmnz9H3aQq5Ztb4D-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-48" value="每台服务器会生成递增的流水号/ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-49" value="预占方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-50" value="普通生成方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="800" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-51" value="首次初始化流水号区间需要锁行处理&lt;div&gt;update pk_table set pk_value = pk_value where pk_name = pk_name&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="478" width="140" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-52" value="服务1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="363" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-53" value="服务2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="363" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-54" value="更新数据库值+100放入内存中并提交本次事务&lt;div&gt;update pk_table set pk_value = pk_value + 100 where pk_name = pk_name&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="478" width="130" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-55" value="服务2更新数据库值+100放入内存中并提交本次事务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="478" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-56" value="从内存中取值递增" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="478" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-57" value="服务1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="810" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-58" value="服务2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="810" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-59" target="hagkfmnz9H3aQq5Ztb4D-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-59" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-64" value="连续请求两次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="158" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-65" value="服务1处理时需要锁行，并且将值+1，提交事务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="892" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-66" value="服务2处理时需要锁行，并且将值+1，提交事务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="892" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-68" value="正常业务处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="900" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-69" value="正常业务处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="892" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-70" value="按天生成流水号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="318" width="120" height="782" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-72" target="hagkfmnz9H3aQq5Ztb4D-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-72" value="内存中存入一个时间，每次进来需要拿当前日期与内存中的日期比较" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="363" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-73" value="不一致则重置流水号值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="363" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.569;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-47" target="hagkfmnz9H3aQq5Ztb4D-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-77" value="要求时效性" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="628" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-77" target="hagkfmnz9H3aQq5Ztb4D-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-80" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hagkfmnz9H3aQq5Ztb4D-79">
+          <mxGeometry x="-0.3824" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hagkfmnz9H3aQq5Ztb4D-77" target="hagkfmnz9H3aQq5Ztb4D-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hagkfmnz9H3aQq5Ztb4D-83" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hagkfmnz9H3aQq5Ztb4D-82">
+          <mxGeometry x="-0.8696" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

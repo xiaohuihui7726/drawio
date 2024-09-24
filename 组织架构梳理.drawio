@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T09:38:05.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8Bi85xoWf0R45lL302V-" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="tSuIuVMYQnbpF5Sk9cVa">
+    <mxGraphModel dx="2634" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1000000" pageHeight="1000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-1" target="9yCGo-c2w3FBcdHBGGWO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-1" target="9yCGo-c2w3FBcdHBGGWO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-1" value="查询部门接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-2" target="9yCGo-c2w3FBcdHBGGWO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-2" value="查询列表数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="-700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-4" target="9yCGo-c2w3FBcdHBGGWO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-4" value="查询节点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-6" target="9yCGo-c2w3FBcdHBGGWO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-6" value="部门树默认展示部门主节点（root节点）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-8" target="9yCGo-c2w3FBcdHBGGWO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-8" value="列表查询所有部门信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-10" value="点击节点树查询子节点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-12" value="点击节点查询节点下所有部门数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-14" target="9yCGo-c2w3FBcdHBGGWO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-14" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;接口建单&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-15" target="9yCGo-c2w3FBcdHBGGWO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;上传附件接口获取附件id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-17" target="9yCGo-c2w3FBcdHBGGWO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-17" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;调用保存提交接口包含附件id集合&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-19" target="9yCGo-c2w3FBcdHBGGWO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;通过附件id集合上传gift&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;生成PO组合主单附件以及拆单后对应明细的附件根据gifturl去重组装PO主单附件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-40" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="9yCGo-c2w3FBcdHBGGWO-23" target="9yCGo-c2w3FBcdHBGGWO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yCGo-c2w3FBcdHBGGWO-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;自建单&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
