@@ -80,18 +80,21 @@
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-28" target="qF1O0gJKwTEx5X9vgZdj-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qF1O0gJKwTEx5X9vgZdj-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-37" target="qF1O0gJKwTEx5X9vgZdj-39">
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-37" target="qF1O0gJKwTEx5X9vgZdj-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-37" value="将用户信息放入ThreadLocal中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="1665" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qF1O0gJKwTEx5X9vgZdj-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-39" target="qF1O0gJKwTEx5X9vgZdj-46">
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-62" target="qF1O0gJKwTEx5X9vgZdj-46">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qF1O0gJKwTEx5X9vgZdj-39" value="组装请求头&lt;div&gt;&lt;b&gt;srm-base-user-id&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;取值为ThreadLocal中的uerId&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qF1O0gJKwTEx5X9vgZdj-39" target="qF1O0gJKwTEx5X9vgZdj-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-39" value="调用base提交审批流方法前修改ThreadLocal中用户信息为订单需求人信息" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="860" y="1665" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-46" value="获取到请求头&lt;div&gt;&lt;b&gt;srm-base-user-id&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -132,6 +135,12 @@
         </mxCell>
         <mxCell id="qF1O0gJKwTEx5X9vgZdj-61" value="base处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-62" value="组装请求头&lt;div&gt;&lt;b&gt;srm-base-user-id&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;取值为ThreadLocal中的uerId&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qF1O0gJKwTEx5X9vgZdj-64" value="处理方案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1470" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
