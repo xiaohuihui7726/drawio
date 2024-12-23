@@ -112,7 +112,7 @@
         <mxCell id="2ebU4Iv7HjetAfFLnInL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ebU4Iv7HjetAfFLnInL-39" target="2ebU4Iv7HjetAfFLnInL-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ebU4Iv7HjetAfFLnInL-39" value="返回：请购单明细存在状态不为未生成和生成失败的状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-39" value="返回：请购单明细存在状态不为&lt;font color=&quot;#ff3333&quot;&gt;未生成&lt;/font&gt;和&lt;font color=&quot;#ff3333&quot;&gt;生成失败&lt;/font&gt;的状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ebU4Iv7HjetAfFLnInL-42" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -146,6 +146,33 @@
         </mxCell>
         <mxCell id="2ebU4Iv7HjetAfFLnInL-55" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2060" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ebU4Iv7HjetAfFLnInL-57" target="2ebU4Iv7HjetAfFLnInL-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-57" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ebU4Iv7HjetAfFLnInL-58" target="2ebU4Iv7HjetAfFLnInL-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-58" value="消费生成PO/NONPO的MQ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ebU4Iv7HjetAfFLnInL-60" target="2ebU4Iv7HjetAfFLnInL-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-60" value="解析message" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ebU4Iv7HjetAfFLnInL-62" target="2ebU4Iv7HjetAfFLnInL-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-62" value="加锁&lt;div&gt;（baseKey+&lt;span style=&quot;background-color: initial;&quot;&gt;_PR_GENERATE_PO_+请购单单号）&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1750" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ebU4Iv7HjetAfFLnInL-64" value="校验明细是否为&lt;font color=&quot;#ff3333&quot;&gt;生成中&lt;/font&gt;状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1740" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
