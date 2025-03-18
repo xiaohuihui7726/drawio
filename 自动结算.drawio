@@ -4,6 +4,72 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-1" target="LW77B5bgiTGg5b30Mp_v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-2" target="LW77B5bgiTGg5b30Mp_v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;新建采购单&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="865" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-4" target="LW77B5bgiTGg5b30Mp_v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LW77B5bgiTGg5b30Mp_v-7">
+          <mxGeometry x="-0.18" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-4" target="LW77B5bgiTGg5b30Mp_v-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;同为销售客户&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;amp;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;订单类型=90&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;amp;供应商状态=合格&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;amp;供应商公司主体在公司内&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="850" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-6" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-11" target="LW77B5bgiTGg5b30Mp_v-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-17" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LW77B5bgiTGg5b30Mp_v-16">
+          <mxGeometry x="0.02" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-11" target="LW77B5bgiTGg5b30Mp_v-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;同步EBS状态&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="850" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-21" value="采购单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="830" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-25" target="LW77B5bgiTGg5b30Mp_v-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LW77B5bgiTGg5b30Mp_v-25" target="LW77B5bgiTGg5b30Mp_v-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;根据来源单号判断是否成功过销售单&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="850" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-26" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LW77B5bgiTGg5b30Mp_v-28" value="生成销售单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
