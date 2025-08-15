@@ -1,23 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="mIlz0FGRuFNIhiM6yOTK">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="20000" pageHeight="200000" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="20000" pageHeight="200000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iSg5R1msItF1-KAJwg0H-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;计费账单流程&lt;/span&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;align=center;textDirection=ltr;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="180" y="110" width="920" height="480" as="geometry" />
+        <mxCell id="iSg5R1msItF1-KAJwg0H-15" value="计费账单流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780.0000000000005" y="60" width="720" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="iSg5R1msItF1-KAJwg0H-8" value="派车单/运单" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-7">
-          <mxGeometry x="20" width="900" height="120" as="geometry" />
+        <mxCell id="iSg5R1msItF1-KAJwg0H-16" value="排查单/运单" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="iSg5R1msItF1-KAJwg0H-9" value="Lane 2" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-7">
-          <mxGeometry x="20" y="120" width="900" height="120" as="geometry" />
+        <mxCell id="iSg5R1msItF1-KAJwg0H-17" value="费率主数据" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="iSg5R1msItF1-KAJwg0H-10" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-7">
-          <mxGeometry x="20" y="240" width="900" height="120" as="geometry" />
+        <mxCell id="iSg5R1msItF1-KAJwg0H-18" value="增值服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="iSg5R1msItF1-KAJwg0H-11" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-7">
-          <mxGeometry x="20" y="360" width="900" height="120" as="geometry" />
+        <mxCell id="iSg5R1msItF1-KAJwg0H-19" value="计费账单" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry x="360" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iSg5R1msItF1-KAJwg0H-20" value="请购单" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry x="480" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="iSg5R1msItF1-KAJwg0H-21" value="PO" style="swimlane;startSize=20;html=1;" vertex="1" parent="iSg5R1msItF1-KAJwg0H-15">
+          <mxGeometry x="600" y="20" width="120" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
