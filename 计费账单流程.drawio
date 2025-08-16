@@ -431,11 +431,59 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-168" target="ZeDddJGaVsbgRb_YvKpA-171">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-173" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-172">
+          <mxGeometry x="0.1029" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-168" value="判断货物类型是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1310" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-171" target="ZeDddJGaVsbgRb_YvKpA-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-171" value="获取运输方式+货物类型+供应商+实际签收时间+发货市+收货省" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1570.5" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="1570.5" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-175" target="ZeDddJGaVsbgRb_YvKpA-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-175" value="查询费率主数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1789.5" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-177" target="ZeDddJGaVsbgRb_YvKpA-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-181" value="能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-180">
+          <mxGeometry x="-0.0501" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-177" value="能否查到" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2009.5" y="1310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-179" target="ZeDddJGaVsbgRb_YvKpA-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-179" value="取优先级最高的单价、最低计费量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-182" target="ZeDddJGaVsbgRb_YvKpA-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-186" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-185">
+          <mxGeometry x="-0.0549" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-182" value="判断实际运输体积是否大于最低计费量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="1210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-184" value="计算含税总价=实际运输货物计费体积*单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-187" value="计算含税总价=最低计费量*单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
