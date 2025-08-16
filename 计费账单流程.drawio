@@ -401,11 +401,23 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-153" value="DC告警" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2050" y="830" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-157" target="ZeDddJGaVsbgRb_YvKpA-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-157" value="票" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2301" y="890" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-160" target="ZeDddJGaVsbgRb_YvKpA-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-160" value="Kg" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2301" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-162" value="计算含税总价=起步价+单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2501" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-164" value="计算含税总价=起步价+实际运输货物计费重量*单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2501" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
