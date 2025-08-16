@@ -150,20 +150,11 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-43" value="计算含税总价=派车单/运单签收合计值*(干线单价+装车单价+卸车单价)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2946" y="115" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-48" target="ZeDddJGaVsbgRb_YvKpA-50">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-48" target="ZeDddJGaVsbgRb_YvKpA-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-48" value="投放" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-48" value="包车" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-50" target="ZeDddJGaVsbgRb_YvKpA-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-50" value="获取线路ID、运输方式、供应商、实际签收时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-52" value="查询费率主数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-54" target="ZeDddJGaVsbgRb_YvKpA-21">
           <mxGeometry relative="1" as="geometry" />
@@ -198,6 +189,20 @@
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-64" value="计算含税总价=派车单签收合计值*投放单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2590" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-66" target="ZeDddJGaVsbgRb_YvKpA-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-70" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-69">
+          <mxGeometry x="-0.34" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-66" value="判断派车单/运单货物类型是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-68" value="获取货物类型、车型、供应商、实际签收时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
