@@ -144,7 +144,7 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-41" value="装车单价=费率主数据装车单价&lt;div&gt;卸车单价-费率主数据卸车单价&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2390" y="464" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-43" value="装车单价=0&lt;div&gt;卸车单价=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-43" value="计算含税总价=派车单/运单签收合计值*(干线单价+装车单价+卸车单价)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2740" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
