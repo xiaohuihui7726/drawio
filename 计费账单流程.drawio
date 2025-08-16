@@ -31,13 +31,18 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-8" target="ZeDddJGaVsbgRb_YvKpA-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-23" value="运输方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-11">
+          <mxGeometry x="-0.7917" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-8" value="获取未计费的派车单/运单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-10" target="ZeDddJGaVsbgRb_YvKpA-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-10" value="干线/投放" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-10" value="干线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-12" target="ZeDddJGaVsbgRb_YvKpA-14">
@@ -69,8 +74,78 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-18" value="发DC告警" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-21" value="获取费率主数据的单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-21" target="ZeDddJGaVsbgRb_YvKpA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-27" value="其他运输方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-25">
+          <mxGeometry x="-0.6091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-21" target="ZeDddJGaVsbgRb_YvKpA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-21" target="ZeDddJGaVsbgRb_YvKpA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-21" target="ZeDddJGaVsbgRb_YvKpA-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-21" value="获取费率主数据的单价、税率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1910" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-24" target="ZeDddJGaVsbgRb_YvKpA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-24" value="无需卸车或空" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="174" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-29" target="ZeDddJGaVsbgRb_YvKpA-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-29" value="装车" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-31" target="ZeDddJGaVsbgRb_YvKpA-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-31" value="卸车" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-33" target="ZeDddJGaVsbgRb_YvKpA-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-33" value="装车、卸车" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-35" target="ZeDddJGaVsbgRb_YvKpA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-35" value="装车单价=0&lt;div&gt;卸车单价=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="174" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2740" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-37" value="装车单价=费率主数据装车单价&lt;div&gt;卸车单价=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-39" target="ZeDddJGaVsbgRb_YvKpA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-39" value="卸车单价-费率主数据卸车单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-41" target="ZeDddJGaVsbgRb_YvKpA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-41" value="装车单价=费率主数据装车单价&lt;div&gt;卸车单价-费率主数据卸车单价&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-43" value="装车单价=0&lt;div&gt;卸车单价=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
