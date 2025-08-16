@@ -42,6 +42,9 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-8" target="ZeDddJGaVsbgRb_YvKpA-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-8" target="ZeDddJGaVsbgRb_YvKpA-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-8" value="获取未计费的派车单/运单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -418,6 +421,21 @@
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-164" value="计算含税总价=起步价+实际运输货物计费重量*单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2501" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-166" target="ZeDddJGaVsbgRb_YvKpA-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-166" value="零担-非电池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-168" target="ZeDddJGaVsbgRb_YvKpA-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-168" value="判断货物类型是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-171" value="获取运输方式+货物类型+供应商+实际签收时间+发货市+收货省" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570.5" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
