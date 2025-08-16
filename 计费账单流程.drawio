@@ -346,8 +346,43 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-135" value="DC告警" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2877" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-140" target="ZeDddJGaVsbgRb_YvKpA-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-140" value="零担-电池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1201" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-142" target="ZeDddJGaVsbgRb_YvKpA-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-142" target="ZeDddJGaVsbgRb_YvKpA-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-148" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-147">
+          <mxGeometry x="-0.1429" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-142" value="判断货物类型是否只有电池" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-144" target="ZeDddJGaVsbgRb_YvKpA-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-144" value="获取运输方式+货物类型+供应商+实际签收时间+实际运输里程+实际签收货物数量的合计值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1561" y="990" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-146" value="DC告警" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1401" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-149" target="ZeDddJGaVsbgRb_YvKpA-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-149" value="查询费率主数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1789.5" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-151" value="是否唯一有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="980" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
