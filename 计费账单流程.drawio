@@ -94,7 +94,7 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-21" target="ZeDddJGaVsbgRb_YvKpA-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-21" value="获取费率主数据的单价、税率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-21" value="获取费率主数据的干线单价、税率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2035" y="192" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-24" target="ZeDddJGaVsbgRb_YvKpA-35">
@@ -184,8 +184,20 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-54" value="判断干线还是投放" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1930" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZeDddJGaVsbgRb_YvKpA-59" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-59" target="ZeDddJGaVsbgRb_YvKpA-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-59" value="获取费率主数据的投放单价、税率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2035" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-62" target="ZeDddJGaVsbgRb_YvKpA-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-62" value="干线单价=0&lt;div&gt;装车单价=0&lt;/div&gt;&lt;div&gt;卸车单价=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-64" value="计算含税总价=派车单签收合计值*投放单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
