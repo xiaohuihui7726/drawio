@@ -34,8 +34,43 @@
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-8" value="获取未计费的派车单/运单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-10" target="ZeDddJGaVsbgRb_YvKpA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZeDddJGaVsbgRb_YvKpA-10" value="干线/投放" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-12" target="ZeDddJGaVsbgRb_YvKpA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-12" value="获取线路ID、运输方式、供应商、实际签收时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-14" target="ZeDddJGaVsbgRb_YvKpA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-14" value="查询费率主数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-16" target="ZeDddJGaVsbgRb_YvKpA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZeDddJGaVsbgRb_YvKpA-19">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZeDddJGaVsbgRb_YvKpA-16" target="ZeDddJGaVsbgRb_YvKpA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-16" value="是否唯一有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-18" value="发DC告警" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeDddJGaVsbgRb_YvKpA-21" value="获取费率主数据的单价" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
