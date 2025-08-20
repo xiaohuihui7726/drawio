@@ -247,6 +247,26 @@
         <mxCell id="d9NnL-D_e1xxll8IizSO-33" value="根据单号加锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-37" target="d9NnL-D_e1xxll8IizSO-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-37" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;查询计费账单明细" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="365" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-33" target="d9NnL-D_e1xxll8IizSO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-41" target="d9NnL-D_e1xxll8IizSO-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-41" value="判断明细中是否有未生成和生成失败的数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-42" value="直接返回结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
