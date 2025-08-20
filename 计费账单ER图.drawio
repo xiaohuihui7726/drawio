@@ -193,7 +193,7 @@
         <mxCell id="d9NnL-D_e1xxll8IizSO-7" value="校验立项" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d9NnL-D_e1xxll8IizSO-9" value="发DC通知" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d9NnL-D_e1xxll8IizSO-9" value="放入集合中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d9NnL-D_e1xxll8IizSO-12" value="按照立项号和业务线分组" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
