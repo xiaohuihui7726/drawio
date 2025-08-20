@@ -163,7 +163,12 @@
         <mxCell id="d9NnL-D_e1xxll8IizSO-2" value="生成PR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="210" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d9NnL-D_e1xxll8IizSO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-3" target="d9NnL-D_e1xxll8IizSO-7">
+        <mxCell id="d9NnL-D_e1xxll8IizSO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-15" target="d9NnL-D_e1xxll8IizSO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d9NnL-D_e1xxll8IizSO-3" target="d9NnL-D_e1xxll8IizSO-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d9NnL-D_e1xxll8IizSO-3" value="异步" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -186,13 +191,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d9NnL-D_e1xxll8IizSO-7" value="校验立项" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="360" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d9NnL-D_e1xxll8IizSO-9" value="发DC通知" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d9NnL-D_e1xxll8IizSO-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="d9NnL-D_e1xxll8IizSO-12" value="按照立项号和业务线分组" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9NnL-D_e1xxll8IizSO-15" value="获取计费账单明细" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
