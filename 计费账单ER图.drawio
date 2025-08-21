@@ -698,6 +698,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-64" target="Ls_uy6wMeUjCKa82K5aL-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-99" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ls_uy6wMeUjCKa82K5aL-98">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-64" value="是否重新发起计费" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
@@ -749,14 +757,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ls_uy6wMeUjCKa82K5aL-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="Ls_uy6wMeUjCKa82K5aL-85" target="Ls_uy6wMeUjCKa82K5aL-89" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ls_uy6wMeUjCKa82K5aL-84" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ls_uy6wMeUjCKa82K5aL-83">
-          <mxGeometry x="-0.1778" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-85" value="总金额是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1330" y="1420" width="80" height="80" as="geometry" />
         </mxCell>
@@ -769,20 +769,54 @@
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-88" value="编辑结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="1420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ls_uy6wMeUjCKa82K5aL-89" value="将发起计费唯一标识赋值到计费账单主单中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1590" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="Ls_uy6wMeUjCKa82K5aL-91" target="Ls_uy6wMeUjCKa82K5aL-93" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ls_uy6wMeUjCKa82K5aL-91" value="计费账单主单、明细，关联增值服务主表、明细表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-91" value="更新计费账单主单、明细，关联增值服务主表、明细表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1580" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ls_uy6wMeUjCKa82K5aL-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="Ls_uy6wMeUjCKa82K5aL-89" target="Ls_uy6wMeUjCKa82K5aL-91" parent="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-93" value="编辑结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1740" y="1580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-85" target="Ls_uy6wMeUjCKa82K5aL-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-96" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ls_uy6wMeUjCKa82K5aL-95">
+          <mxGeometry x="-0.633" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-97" value="生成发起计费唯一标识" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.636;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-71" target="Ls_uy6wMeUjCKa82K5aL-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-101" target="Ls_uy6wMeUjCKa82K5aL-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-101" value="保存过程表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-97" target="Ls_uy6wMeUjCKa82K5aL-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-103" target="Ls_uy6wMeUjCKa82K5aL-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-103" value="更新计费主单计费唯一标识" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-105" target="Ls_uy6wMeUjCKa82K5aL-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="1370" />
+              <mxPoint x="840" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-105" value="点击保存/提交" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
