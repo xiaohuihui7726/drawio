@@ -559,8 +559,66 @@
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-3" value="获取增值服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-5" target="Ls_uy6wMeUjCKa82K5aL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ls_uy6wMeUjCKa82K5aL-5" value="以派车单的维度组装计费账单明细的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-11" value="组装关联增值服务的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-13" target="Ls_uy6wMeUjCKa82K5aL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-13" value="将关联增值服务的数据存入发起计费过程表并生成发起计费唯一标识" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="500" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-11" target="Ls_uy6wMeUjCKa82K5aL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-15" target="Ls_uy6wMeUjCKa82K5aL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-15" value="将发起计费的结果返回给前端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-17" target="Ls_uy6wMeUjCKa82K5aL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-17" value="保存/提交操作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-21" target="Ls_uy6wMeUjCKa82K5aL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-25" value="提交报价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ls_uy6wMeUjCKa82K5aL-24">
+          <mxGeometry x="0.0727" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-21" target="Ls_uy6wMeUjCKa82K5aL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-28" value="临时报价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ls_uy6wMeUjCKa82K5aL-27">
+          <mxGeometry x="-0.2444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-21" value="报价方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-23" value="不校验一级分类二级分类下的总金额" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-26" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-29" value="计费账单主单、明细，关联增值服务主表、明细表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="545" y="690" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-23" target="Ls_uy6wMeUjCKa82K5aL-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
