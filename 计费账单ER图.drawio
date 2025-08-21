@@ -535,14 +535,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VZG0C-5XykONyzSz3ffT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZG0C-5XykONyzSz3ffT-1" target="VZG0C-5XykONyzSz3ffT-2">
+        <mxCell id="VZG0C-5XykONyzSz3ffT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VZG0C-5XykONyzSz3ffT-1" target="VZG0C-5XykONyzSz3ffT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VZG0C-5XykONyzSz3ffT-1" value="发起计费" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="VZG0C-5XykONyzSz3ffT-1" value="发起计费" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="200" y="510" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VZG0C-5XykONyzSz3ffT-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZG0C-5XykONyzSz3ffT-2" target="Ls_uy6wMeUjCKa82K5aL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZG0C-5XykONyzSz3ffT-2" value="获取派车单/运单数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-1" target="Ls_uy6wMeUjCKa82K5aL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-1" value="匹配费率主数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ls_uy6wMeUjCKa82K5aL-3" target="Ls_uy6wMeUjCKa82K5aL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-3" value="获取增值服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ls_uy6wMeUjCKa82K5aL-5" value="以派车单的维度组装计费账单明细的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
